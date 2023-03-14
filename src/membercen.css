@@ -1,0 +1,489 @@
+@import url("reset.css");
+@import url("index.css");
+
+.first-page {
+    background-image: url("../image/membercenter/background.png");
+    width: 100rw;
+    height: 870px;
+    padding-top: 180px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.first-page-top {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.first-page-top h1 {
+    margin-left: 150px;
+}
+
+.first-page-top h2 {
+    margin-left: 150px;
+}
+
+.login-button {
+    display: block;
+    width: 250px;
+    height: 200px;
+    background-color: #8DF6F6;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 1000px;
+    border: 2px solid white;
+
+}
+
+.login-button button {
+    width: 250px;
+    font-size: 4rem;
+    background-color: #ffffff00;
+    border: 0;
+    line-height: 200px;
+    text-align: center;
+
+}
+
+.login-input {
+    display: none;
+    width: 40%;
+    height: 340px;
+    border: 1px solid black;
+    margin-left: 837px;
+    position: relative;
+    padding-left: 20px;
+    border-radius: 20px;
+
+}
+.login-forgot{
+    width: 550px;
+    display: block;
+    margin-left: 900px;
+    background-color: #90f2ff;
+    border-radius: 10px;
+    display: none;
+}
+.login-forgot button{
+    margin:10px 0 10px 55px;
+    font-weight: 800;
+}
+.login-forgot .table-list p{
+   background-color: #ffffff00;
+}
+.close {
+    border: 0;
+    background-color: #ffffff00;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.login-input h4 {
+    margin-left: 220px;
+    display: block;
+}
+
+.login-input p {
+    font-size: 3.5rem;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.login-input input {
+    width: 80%;
+    border-radius: 20px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+
+.forgot {
+    color: blue;
+    display: block;
+    font-size: 1.5rem;
+    margin: 1.5px 36px;
+}
+
+.login-input button {
+    width: 25%;
+    border-radius: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 95px;
+    font-size: 2.5rem;
+}
+
+.first-page-bottom {
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    left: 217px;
+    top: 680px;
+
+}
+
+.first-page-bottom ul {
+    display: flex;
+    margin: 0 auto;
+}
+
+.first-page-bottom li {
+    display: flex;
+
+}
+
+.first-page-bottom li img {
+    width: 100%;
+
+}
+
+.member-center {
+    background-image: url("../image/membercenter/bg2.png");
+    width: 100rw;
+    height: 900px;
+    background-repeat: no-repeat;
+    padding: 50px 30px 0 30px;
+}
+
+.member-center-top {
+    display: flex;
+}
+
+.member-center-top-right {
+    display: flex;
+}
+
+.member-center-top-right div {
+    width: 210px;
+    height: 210px;
+    border-radius: 10px;
+    background-color: beige;
+    margin: 20px 0px 50px 210px;
+}
+
+.member-center-top-right img {
+    width: 100%
+}
+
+.member-center-top-right p {
+    margin: 200px 0 0 10px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.member-center-top-left {
+    margin-left: 720px;
+}
+
+.member-center-top-left h2 {
+    margin-bottom: 100px;
+}
+
+.member-center-top-left a {
+    display: block;
+    width: 200px;
+    line-height: 2;
+    text-decoration: none;
+    font-size: 3rem;
+    background-color: #ffffff32;
+    border-radius: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.member-center-top-left img {
+    height: 25px;
+}
+
+.member-center article {
+    display: flex;
+    padding: 20px 200px 0 200px;
+    overflow: hidden;
+}
+
+.member-card {
+    width: 25%;
+    background-color: black;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.member-card div {
+    margin-top: 20px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.member-card img {
+    width: 100%;
+}
+
+.member-card p {
+    color: white;
+    margin-top: 70px;
+    font-size: 2rem;
+}
+
+.member-level {
+    width: 15%;
+    margin: 0 20px;
+}
+
+.member-level p {
+    font-size: 0.5rem;
+}
+
+.member-level h5 {
+    font-size: 2.5rem;
+}
+
+.member-level img {
+    width: 80%;
+}
+
+.member-experence {
+    width: 90%;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #ffffff3b;
+}
+
+.member-experence div {
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #4ee5f9ec;
+}
+
+.member-experence-statement p {
+    font-size: 1rem;
+}
+
+.member-center article ul {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.member-center article ul li {
+    margin-right: 20px;
+
+}
+
+.member-center article ul li p {
+    background-image: url("../image/membercenter/bonus.png");
+    width: 208px;
+    height: 209px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+
+}
+
+.link {
+    width: 100rw;
+    padding: 10px 200px 0 200px;
+    overflow: hidden;
+}
+
+.link ul {
+    display: flex;
+    padding: 0 200px 0 200px;
+    overflow: hidden;
+}
+
+.link li {
+    width: 200px;
+    height: 200px;
+    background-color: #57B0E2;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+
+.link li p {
+    line-height: 50px;
+    text-align: center;
+    font-size: 4rem;
+    color: aliceblue;
+    padding-top: 50px;
+
+}
+.member-data-look{
+    background-image: url("../image/membercenter/bg3.png");
+    width: 100rw;
+    height: 1000px;
+    background-repeat: no-repeat;
+    padding: 50px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.member-data-look article{
+    width: 80rw;
+    height: 1100px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 350px 0 200px;
+}
+.member-data-look-content{
+    width: 1000px;
+    height: 675px;
+    
+    display: block;
+    background-color: #78F8E1;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.table-list p{
+    font-size: 3.5rem;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 15px;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.table-list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px ;
+    
+}
+.table-list li{
+    display: flex;
+    flex-direction: row; 
+}
+.table-list input{
+    width: 500px;
+    height: 50px;
+    background-color: #C4C6DF;
+    margin-top: 25px;
+    border-radius:10px;
+    flex-grow: 3;  
+    border: #ffffff00;  
+}
+.member-data-look-content button{
+    margin-left:220px;
+    margin-top: 10px;
+}
+.member-data-side-button{
+    display: flex;
+    flex-direction: column;
+}
+.member-data-side-button button{
+    height: 150px;
+    width: 38px;
+    border-radius: 10px;
+}
+.member-data-look-content-password{
+    display: none;
+}
+.member-data-look-content-password-fix{display: none;}
+
+.member-order{
+    background-image: url("../image/membercenter/bg3.png");
+    width: 100%;
+    padding-top: 80px ;
+    height: 1200px;
+    background-repeat: no-repeat;
+   
+}
+.member-order-button{
+    width: 75% ;
+    margin: 10px auto;
+    margin-bottom: 0;
+}
+.member-order-button button{
+    height: 54px;
+    margin: 10px auto;
+    margin-bottom: 0;
+    border-radius: 8px;
+    
+}
+.member-order-button button.button-main-4{
+    margin-left: 90px;
+}
+.member-order-list{
+    width: 75% ;
+    margin: 0px auto;
+    height: 700px;
+
+}
+.member-order-list ul{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    background-color: #57B0E2;
+    border-radius: 7px;
+    margin-left: 90px;
+}
+.member-order-list li{
+    display: flex;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.member-order-list p{
+    width: 20%;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 80px;
+}
+.member-order-content li p{
+    line-height: 120px;
+}
+.member-order-content button{
+    background-color: #ffffff00;
+    color: rgb(0, 17, 255);
+    border: #ffffff00;
+    font-size: 2.5rem;
+}
+.member-order-content div ul{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-left: 65px;
+}
+.member-order-content div ul li{
+    width: 270px;
+    flex-grow: 1;
+    margin-right: 10px;
+    display: none;
+}
+.member-order-content div ul li img{
+    width: auto;
+}
+.shopping-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.shopping-list h5{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 15px;
+}
+.shopping-list-text{
+    font-size: 2.5rem;
+    line-height: 0;
+}
+.foot {
+    top: 4220px;
+}

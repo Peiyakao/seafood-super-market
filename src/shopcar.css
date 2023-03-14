@@ -1,0 +1,345 @@
+@import url("reset.css");
+@import url("style.css");
+@import url("index.css");
+
+.first-page{
+    background-image: url("../image/shoppingcargo/bg.png");
+    width: 100rw;
+    height: 800px;
+    padding-top: 100px;
+
+}
+.first-page-top{
+    background-color: #00AFC7;
+    width: 100rw;
+}
+.first-page-top img{
+    margin-left: 720px;
+    width: 20%;
+}.first-page-top a{
+    margin-left: 300px;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.first-page-main{
+    display: flex;
+    padding: 10px 344px;
+}
+.first-page-main-left{
+    background-color: #ffffff;
+}
+
+.first-page-main-left img{
+    width:180px;
+}
+.first-page-top{
+    width: 100rw;
+    height: 250px;
+    background-color: #78F8E1;
+}
+.index{
+    width: 850px;
+    background-color: #ffffff;
+}
+.index li{
+    background-color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    text-align: center;
+}
+.first-page-main-left li{
+    background-color: #ffffff;
+    font-size: 2rem;
+    text-align: center;    
+}
+.photo{
+    width: 20%;
+}
+.choose{
+    width: 5%;
+}
+.name{  width: 22.5%}
+.size{width: 10%;}
+.price{width: 10%;}
+.amount{width: 10%;}
+.total{ width: 22.5%}
+
+.first-page-main-left ol{
+    display: flex;
+    line-height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.first-page-main-right{
+    margin-left: 20px;
+}
+.first-page-main-right-top {
+    width: auto;
+    background-color: #C4C6DF;
+    border-radius: 10px;
+}
+.first-page-main-right-top p,input{
+   padding-top: 10px;
+   margin-left: 50px;
+   font-size: 2rem;
+}
+.first-page-main-right-top p{
+    margin-bottom: 10px;;
+ }
+ .button-main-6{
+   width: 100px;
+   height: 40px;
+   font-weight: 900;
+   margin: 20px;
+   margin-left: 44px;
+ }
+ .button-notmain-6{
+    width: 100px;
+    height: 40px;
+    font-weight: 900;
+    margin: 20px;
+    margin-left: 44px;
+  }
+ .first-page-main-right-bottom{
+    margin-top: 10px;
+    width: auto;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    text-align: right;
+    line-height: 1;
+}
+.first-page-main-right-bottom h5{
+    text-align: center;
+}
+.first-page-main-right-bottom li{
+    font-size: 2.5rem;
+    text-align: left;
+}
+.first-page-main-right-bottom ol li,p{
+    font-size: 2rem;
+    text-align: right;
+    
+}
+
+.first-page-main-right-bottom ul{
+    border-bottom: 1px solid black;
+    padding: 0 5px;
+}
+.first-page-main-right-bottom h4{
+    font-size: 2.5rem;
+    color: #1b0bff;
+}
+.pay-infor-page{
+    background-color: rgb(254, 254, 254);
+    width: 100rw;
+    height: 800px;
+    padding-top: 100px;
+    /* display: none; */
+    
+}
+.pay-infor-page-top{
+    background-color: #00AFC7;
+    width: 100rw;
+    height: 150px;
+}
+.pay-infor-page-top p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 4rem;
+    line-height: 150px;
+}
+.STEP1{
+    background-image: url("../image/shoppingcargo/arrow1-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 300px;
+}
+.STEP2{
+    background-image: url("../image/shoppingcargo/arrow1-2-3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.STEP3{
+    background-image: url("../image/shoppingcargo/arrow1-2-3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.pay-infor-page ul{
+    display: flex;
+    padding: 10px 200px 0;
+}
+.pay-infor-page-ul li{
+    width: 300px;
+    height: 130px;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.write-page {
+    display: flex;
+    flex-direction: column;
+   background-color: #78F8E1;
+   width: 50%;
+   margin: 0 auto;
+   padding: 0;
+   border-radius: 10px;
+  
+}
+.write-page-order li{
+   margin-top: 0px;
+   margin-bottom: 50px;
+}
+
+
+.write-page-order ul {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top:0px;
+}
+.write-page-receive ul {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.write-page-order ul li{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.write-page ul input{
+    width:670px;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+
+.write-page p{
+    font-size: 2.5rem;
+    text-align: left;
+   
+}
+.write-page-receive-button{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+}
+.write-page-ti{
+    padding: 10px;
+   padding-left: 10px;
+    margin-top: 24px;
+    display: flex;
+}
+.pay-check-page{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5fecb;
+    /* padding: 200px 200px; */
+    margin:0 auto;
+    display: none;
+}
+.pay-check-page ul{
+    padding: 0;
+}
+.pay-check-page-content{
+    display: flex;
+    flex-direction: column;
+}
+.pay-check-page-content-top{
+    background-color: #78F8E1;
+    border-radius: 15px;
+    line-height: 2;
+}
+.pay-check-page-content p{
+    font-size: 4rem;
+    color: red;
+    margin-right: 20px;
+}
+.pay-check-page-content-mer ul{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px ;
+}
+
+.pay-check-page-content-mer ol{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 3rem;
+    text-align: center;
+}
+.pay-check-page-content-mer img{
+    width: 200px;
+    margin-left: 50px;
+    display: block;
+}
+.pay-check-page-content-mer-item{
+    line-height: 150px;
+}
+.pay-check-page-bottom{
+    margin-left: 800px;
+}
+.pay-page{
+    width: 90%;
+    background-color: #f5fecb;
+    margin:0 auto;
+    padding-bottom: 30px;
+    position: relative;
+    /* display: none; */
+    
+}
+.pay-page h3{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+.pay-page ul{
+    padding: 0;
+    margin-left: 4px;
+}
+.pay-page ul li{
+    
+    margin-right: 20px;
+}
+.pay-page ul button{
+    border-radius: 5px;
+    border: #ffffff00;
+}
+.pay-page article{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background: #ebebeb;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 2px 10px;
+}
+.pay-page article img{
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.pay-page article p{
+    color: #3c00ff;
+    font-size: 2rem;
+}
+.foot {
+    left: -48px;
+    right: 0;
+    bottom: -610px;
+   
+
+}

@@ -1,0 +1,389 @@
+@import url("index.css");
+
+.wrapper {
+
+    background-image: url("../image/searching/shopping-center-bg.png");
+    width: auto;
+    height: 800px;
+    padding: 100px 100px 0;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+.recommend ul {
+    padding-left: 200px;
+    margin-top: 80px;
+}
+
+.recommend ul li {
+    display: block;
+    width: 250px;
+}
+
+.recommend ul img {
+    width: 100%;
+}
+
+.searching {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    padding-right: 175px;
+    height: auto;
+
+}
+
+.searching-item {
+    flex-grow: 1;
+}
+
+.searching-item ul {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.searching-item a {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.searching article a {
+    flex-grow: 1;
+}
+
+.searching article h1 {
+    background-image: url("../image/searching/shop-title.png");
+    width: 300px;
+    height: 300px;
+    flex-grow: 1;
+    margin-left: 155px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+}
+
+.searching-area {
+    float: left;
+}
+
+.searching article input {
+    width: 689px;
+    display: block;
+    background-color: #dcdcdcf6;
+    line-height: 4.5;
+    border-radius: 50px;
+    padding-left: 35px;
+    margin-top: 20px;
+    position: relative;
+    border: 0px;
+    color: rgb(32, 32, 32);
+}
+
+.searching article button {
+    background-image: url("../image/searching/magini.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    border-radius: 50px;
+    height: 30px;
+    position: absolute;
+    left: 1328px;
+    top: 477px;
+    border: 0px;
+
+}
+
+.searching article a {
+    background-image: url("../image/searching/search_reserve.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 85px;
+    height: 85px;
+    float: right;
+    display: block;
+    padding-bottom: 20px;
+
+}
+
+.searching article ul {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+.searching article li {
+    margin-right: 7px;
+    font-size: 1.5em;
+}
+
+.searching-item ul {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.searching-item-4 {
+    margin-right: 20px;
+}
+
+.wrapper-main {
+    background-color: #fff;
+    position: relative;
+    padding: 0 350px;
+}
+
+.background img {
+    position: absolute;
+}
+
+.Vector_01 {
+    left: 0;
+    top: 640px;
+}
+
+.Vector_02 {
+    right: -10px;
+    top: -210px;
+}
+
+.Vector_03 {
+    left: 0;
+    top: 0;
+}
+
+.item-list aside {
+    position: absolute;
+    right: 100px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("../image/searching/shoppong_cart.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 150px;
+}
+
+.item-list aside p {
+    background-color: #fd4545;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-radius: 40px;
+    width: 60px;
+    line-height: 2.5;
+    margin: 15px auto;
+    display: block;
+    text-align: center;
+}
+
+.item-list aside a {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+.item-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+
+.item-list li {
+    margin: 0 auto 10px;
+}
+
+.item-outer {
+    display: block;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.item-outer img {
+    width: 100%;
+}
+
+.item-outer h3 {
+    font-size: 3.5rem;
+    text-align: center;
+
+}
+
+.item-content {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.infor-left {
+    display: flex;
+    width: 200px;
+    background-color: #90f0eb;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 2px;
+    padding: 10px;
+
+}
+
+.infor-left ul {
+    display: flex;
+    margin: 0 auto;
+}
+
+.infor-left li {
+    margin-right: 2px;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+.infor-left ol li {
+    margin-left: 14px;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.number {
+    display: flex;
+    width: auto;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.infor-left button {
+    width: 25px;
+    height: 20px;
+}
+
+.infor-left input {
+    width: 25px;
+    height: 14px;
+    text-align: center;
+}
+
+.infor-right {
+    display: flex;
+    width: 100px;
+    background-color: #adc5f1;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+}
+
+.cook-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+
+
+
+}
+
+.infor-right img {
+    width: 25px;
+    flex-grow: 1;
+    margin: 0 7px;
+
+}
+
+.infor-right p {
+    display: block;
+    height: 20px;
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 4px;
+
+}
+
+.infor-bottom {
+    width: 100%;
+    margin: 3px auto;
+
+}
+
+.infor-bottom button {
+    border: 2px solid whitesmoke;
+    margin-left: 40px;
+}
+
+.searching-select {
+    width: auto;
+    padding: 2px 275px;
+    margin-left: 55px;
+
+}
+
+.searching-select ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searching-select li {
+    display: block;
+    width: 300px;
+    line-height: 2;
+    border: 3px solid black;
+    background-color: #93ffffa8;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    margin-right: 5px;
+}
+
+.searching-select-list {
+    width: 95.1%;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.searching-select-list li {
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0;
+    border: 0;
+    background-color: #ffffff00
+}
+
+.searching-select-list input {
+    margin: 3px 10px;
+}
+
+.searching-select-list button {
+    margin: 15px 6.5px 0 0;
+}
+
+.next-page {
+    width: auto;
+    padding: 30px 350px 0 350px;
+    display: flex;
+}
+
+.next-page p {
+    margin-right: 5px;
+    flex-grow: 1;
+    font-size: 3.5rem;
+}
+
+.next-page a {
+    text-decoration: none;
+    margin-right: 2px;
+}
+
+.foot {
+    top: 2458px;
+}
