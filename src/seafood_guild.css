@@ -1,0 +1,126 @@
+@import url("index.css");
+
+body {
+    font-family: "Noto san HK";
+}
+
+.first-page {
+    background-image: url("../image/seafoodgd/firstpage_bg.png");
+    width: auto;
+    height: 950px;
+    padding: 300px 350px 0;
+    background-repeat: no-repeat
+}
+
+.first-page h1 {
+    font-size: 7rem;
+    margin-left: 300px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    text-shadow: 10px 10px 20px #ffffff;
+}
+
+.first-page p {
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-left: 310px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    text-shadow: 10px 10px 20px #ffffff;
+}
+
+.first-page a {
+    display: block;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-left: 977px;
+    font-weight: 700;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.main-page {
+    background-image: url("../image/seafoodgd/mainbg.png");
+    width: auto;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    padding: 143px 350px 0 350px;
+    background-repeat: no-repeat;
+    height: 1341px;
+
+}
+
+.main-page aside {
+    /* margin-top: 200px; */
+}
+
+.main-page aside ul {
+    display: flex;
+    margin-left: 200px;
+
+}
+
+.main-page aside li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+
+
+.main-page li {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.main-page p {
+    font-size: 3rem;
+    padding-left: 10px;
+}
+
+.main-page article {
+    width: auto;
+    margin-right: 200px;
+    overflow: hidden;
+
+}
+
+.main-page article ul {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    width: 8000px;
+}
+
+.main-page article li {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    display: block;
+    margin-right: 400px;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.main-page article li h3 {
+    text-align: right;
+    color: #7986F8;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.main-page article li h4 {
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+.main-page article li p {
+    display: block;
+    line-height: 1.8;
+}
+
+.foot {
+    top: 2505px;
+}

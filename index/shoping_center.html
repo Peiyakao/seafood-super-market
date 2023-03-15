@@ -1,107 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>金速鱻魚市場</title>
+    <link rel="stylesheet" href="../src/shop-cen.css">
 </head>
+
 <body>
     <header>
         <div>
-            <h1 class="logo"><a href="#" ></a></h1>
+            <h1 class="logo"><a href=""></a></h1>
             <nav>
                 <ul class="navigator">
-                <li>
-                    <a href="#">關於我們</a>
-                    <ol>
-                        <li><a href="#">我們的目標</a></li>
-                        <li><a href="#">我們的行動</a></li>
-                    </ol>
-                    
-                </li>
-                <li >
-                    <a href="#">新鮮漁市</a>
-                    <ol>
-                        <li>
-                            <a href="#">事先預約</a>
-                        </li>
-                    </ol>
-                    
-                </li>
-                <li ><a href="#">最新消息</a></li>
-                <li ><a href="#">海鮮指南</a>
-                    <ol>
-                        <li>
-                            <a href="#">原則介紹</a>
-                        </li>
-                    </ol></li>
-                <li ><a href="#">會員中心</a></li>
-            </ul>
+                    <li class="navigator-li">
+                        <a href="#">關於我們</a>
+                        <ol>
+                            <li><a href="#">我們的目標</a></li>
+                            <li><a href="#">我們的行動</a></li>
+                        </ol>
+
+                    </li>
+                    <li class="navigator-li">
+                        <a href="#">新鮮漁市</a>
+                        <ol>
+                            <li>
+                                <a href="#">事先預約</a>
+                            </li>
+                        </ol>
+
+                    </li>
+                    <li class="navigator-li"><a href="#">最新消息</a></li>
+                    <li class="navigator-li"><a href="#">海鮮指南</a>
+                        <ol>
+                            <li>
+                                <a href="#">原則介紹</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="navigator-li"><a href="#">會員中心</a></li>
+                </ul>
             </nav>
-        <img class=select-list src="#" alt="select-list">
+            <img class=select-list src="#" alt="select-list">
         </div>
     </header>
-    <section class="searching">
-        <div class="searching-item">
+    <div class="wrapper">
+        <div class="recommend">
             <ul>
-                <li>牠們的產地</li>
-                <li>烹飪方式</li>
-                <li>物種搜尋</li>
-                <li>季節限定</li>
+                <li><img src="../image/searching/osususme01.png" alt=""></li>
+                <li><img src="../image/searching/osususme02.png" alt=""></li>
+                <li><img src="../image/searching/osususme03.png" alt=""></li>
             </ul>
         </div>
-        <article>
-            <h1>客人呀 !今天要找什麼魚</h1>
-            <p>想找什麼魚......</p>
-            <img src="#" alt="magnifier">
+        <section class="searching">
+            <div class="searching-item">
+                <ul>
+                    <li>
+                        <a href="#"><img src="../image/searching/search_selec01.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../image/searching/search_selec02.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../image/searching/search_selec03.png" alt=""></a>
+                    </li>
+                    <li class="searching-item-4">
+                        <a href="#"><img src="../image/searching/search_selec04.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <article>
+                <h1></h1>
+                <div class="searching-area">
+                    <input type="text" placeholder="客人今天要找什麼魚?">
+                    <ul>
+                        <li>熱門搜尋:</li>
+                        <li>文蛤</li>
+                        <li>草蝦</li>
+                        <li>螃蟹</li>
+                    </ul>
+                </div>
+
+                <button></button></p>
+                <a href="#"></a>
+                <p>
+
+            </article>
+        </section>
+    </div>
+    <section class="searching-select">
+        <ul>
+            <li>地區搜尋</li>
+            <li>烹飪方式</li>
+            <li>季節限定</li>
+            <li>物種搜尋</li>
+            <div class="searching-select-list">
+                <li class="area-search">
+                    <input type="checkbox" name="all" checked><label for="scales">全選</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">基隆</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">台北</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">新北</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">桃園</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">新竹</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">苗栗</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">台中</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">彰化</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">雲林</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">嘉義</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">台南</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">高雄</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">屏東</label></ipnut>
+                    <input type="checkbox" name="keelung"><label for="scales">東部</label></ipnut>
+                </li>
+                <button class="button-main-6">搜尋</button>
+                <button class="button-notmain-6">重製</button>
+            </div>
+        </ul>
+    </section>
+    <div class="wrapper-main">
+        <section class="background">
+            <img class="Vector_01" src="../image/searching/Vector_01.png" alt="">
+            <img class="Vector_02" src="../image/searching/Vector_02.png" alt="">
+            <img class="Vector_03" src="../image/searching/Vector_03.png" alt="">
+        </section>
+        <section class="item-list">
             <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li class="item-outer">
+                    <img src="../image/searching/item_01.png" alt="">
+                    <h3>鬼頭刀<br>(Dolphinfish)</h3>
+                    <div class="item-content">
+                        <article class="infor-left">
+                            <ul>
+                                <li>尺寸
+                                    <ol>
+                                        <li>S</li>
+                                        <li>M</li>
+                                        <li>L</li>
+                                    </ol>
+                                </li>
+                                <li>價錢
+                                    <ol>
+                                        <li>200</li>
+                                        <li>300</li>
+                                        <li>350</li>
+                                    </ol>
+                                </li>
+                                <li>數量
+                                    <ol>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        </li>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </article>
+                        <div class="infor-right">
+                            <p>烹飪方式</p>
+                            <div class="cook-img">
+                                <img src="../image/searching/cookling01.png" alt="">
+                                <img src="../image/searching/cookling02.png" alt="">
+                                <img src="../image/searching/cookling03.png" alt="">
+                                <img src="../image/searching/cookling04.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="infor-bottom">
+                        <button class="button-notmain-6">加入購物車</button>
+                        <button class="button-main-6">購買</button>
+                    </div>
+
+                </li>
+                <li class="item-outer">
+                    <img src="../image/searching/item_02.png" alt="">
+                    <h3>文蛤<br>(Poker-chip Venus)</h3>
+                    <div class="item-content">
+                        <article class="infor-left">
+                            <ul>
+                                <li>尺寸
+                                    <ol>
+                                        <li>S</li>
+                                        <li>M</li>
+                                        <li>L</li>
+                                    </ol>
+                                </li>
+                                <li>價錢
+                                    <ol>
+                                        <li>65</li>
+                                        <li>70</li>
+                                        <li>80</li>
+                                    </ol>
+                                </li>
+                                <li>數量
+                                    <ol>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        </li>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </article>
+                        <div class="infor-right">
+                            <p>烹飪方式</p>
+                            <div class="cook-img">
+                                <img src="../image/searching/cookling01.png" alt="">
+                                <img src="../image/searching/cookling02.png" alt="">
+                                <img src="../image/searching/cookling03.png" alt="">
+                                <img src="../image/searching/cookling04.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="infor-bottom">
+                        <button class="button-notmain-6">加入購物車</button>
+                        <button class="button-main-6">購買</button>
+                    </div>
+                </li>
+                <li class="item-outer">
+                    <img src="../image/searching/item_03.png" alt="">
+                    <h3>白帶魚<br>(Silverfish)</h3>
+                    <div class="item-content">
+                        <article class="infor-left">
+                            <ul>
+                                <li>尺寸
+                                    <ol>
+                                        <li>S</li>
+                                        <li>M</li>
+                                        <li>L</li>
+                                    </ol>
+                                </li>
+                                <li>價錢
+                                    <ol>
+                                        <li>250</li>
+                                        <li>300</li>
+                                        <li>400</li>
+                                    </ol>
+                                </li>
+                                <li>數量
+                                    <ol>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        </li>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </article>
+                        <div class="infor-right">
+                            <p>烹飪方式</p>
+                            <div class="cook-img">
+                                <img src="../image/searching/cookling01.png" alt="">
+                                <img src="../image/searching/cookling02.png" alt="">
+                                <img src="../image/searching/cookling03.png" alt="">
+                                <img src="../image/searching/cookling04.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="infor-bottom">
+                        <button class="button-notmain-6">加入購物車</button>
+                        <button class="button-main-6">購買</button>
+                    </div>
+                </li>
+                <li class="item-outer">
+                    <img src="../image/searching/item_04.png" alt="">
+                    <h3>東方齒鰆<br>(Oriental bonito)</h3>
+                    <div class="item-content">
+                        <article class="infor-left">
+                            <ul>
+                                <li>尺寸
+                                    <ol>
+                                        <li>S</li>
+                                        <li>M</li>
+                                        <li>L</li>
+                                    </ol>
+                                </li>
+                                <li>價錢
+                                    <ol>
+                                        <li>30</li>
+                                        <li>50</li>
+                                        <li>55</li>
+                                    </ol>
+                                </li>
+                                <li>數量
+                                    <ol>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        </li>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </article>
+                        <div class="infor-right">
+                            <p>烹飪方式</p>
+                            <div class="cook-img">
+                                <img src="../image/searching/cookling01.png" alt="">
+                                <img src="../image/searching/cookling02.png" alt="">
+                                <img src="../image/searching/cookling03.png" alt="">
+                                <img src="../image/searching/cookling04.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="infor-bottom">
+                        <button class="button-notmain-6">加入購物車</button>
+                        <button class="button-main-6">購買</button>
+                    </div>
+                </li>
+                <li class="item-outer">
+                    <img src="../image/searching/item_05.png" alt="">
+                    <h3>鎖管<br>(Inshore squids)</h3>
+                    <div class="item-content">
+                        <article class="infor-left">
+                            <ul>
+                                <li>尺寸
+                                    <ol>
+                                        <li>S</li>
+                                        <li>M</li>
+                                        <li>L</li>
+                                    </ol>
+                                </li>
+                                <li>價錢
+                                    <ol>
+                                        <li>200</li>
+                                        <li>350</li>
+                                        <li>400</li>
+                                    </ol>
+                                </li>
+                                <li>數量
+                                    <ol>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        </li>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </article>
+                        <div class="infor-right">
+                            <p>烹飪方式</p>
+                            <div class="cook-img">
+                                <img src="../image/searching/cookling01.png" alt="">
+                                <img src="../image/searching/cookling02.png" alt="">
+                                <img src="../image/searching/cookling03.png" alt="">
+                                <img src="../image/searching/cookling04.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="infor-bottom">
+                        <button class="button-notmain-6">加入購物車</button>
+                        <button class="button-main-6">購買</button>
+                    </div>
+                </li>
+                <li class="item-outer">
+                    <img src="../image/searching/item_06.png" alt="">
+                    <h3>櫻花蝦<br>(sakura shrimp)</h3>
+                    <div class="item-content">
+                        <article class="infor-left">
+                            <ul>
+                                <li>尺寸
+                                    <ol>
+                                        <li>S</li>
+                                        <li>M</li>
+                                        <li>L</li>
+                                    </ol>
+                                </li>
+                                <li>價錢
+                                    <ol>
+                                        <li>100</li>
+                                        <li>120</li>
+                                        <li>150</li>
+                                    </ol>
+                                </li>
+                                <li>數量
+                                    <ol>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        </li>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                        <li class="number">
+                                            <button>-</button>
+                                            <input type="text" placeholder="1">
+                                            <button>+</button>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </article>
+                        <div class="infor-right">
+                            <p>烹飪方式</p>
+                            <div class="cook-img">
+                                <img src="../image/searching/cookling01.png" alt="">
+                                <img src="../image/searching/cookling02.png" alt="">
+                                <img src="../image/searching/cookling03.png" alt="">
+                                <img src="../image/searching/cookling04.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="infor-bottom">
+                        <button class="button-notmain-6">加入購物車</button>
+                        <button class="button-main-6">購買</button>
+                    </div>
+                </li>
             </ul>
-            <img src="#" alt="我要預約">
-        </article>
-    </section>
-    <section>
-        
-    </section>
-    <footer>
+            <aside>
+                <p>0</p>
+                <a href="#"></a>
+            </aside>
+            <div class="next-page">
+                <p><a href="">下一頁</a></p>
+                <p><a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                    <a href="">5</a>
+                </p>
+                <p><a href="">末頁</a></p>
+            </div>
+        </section>
+    </div>
+    <footer class="foot">
         <div class="foot-main">
             <nav>
-                <ul class="navigator">
-                <li>
-                    <a href="#">關於我們</a>
-                    <ol>
-                        <li><a href="#">我們的目標</a></li>
-                        <li><a href="#">我們的行動</a></li>
-                    </ol>
-                    
-                </li>
-                <li >
-                    <a href="#">新鮮漁市</a>
-                    <ol>
-                        <li>
-                            <a href="#">事先預約</a>
-                        </li>
-                    </ol>
-                    
-                </li>
-                <li ><a href="#">海鮮指南</a>
-                    <ol>
-                        <li>
-                            <a href="#">原則介紹</a>
-                        </li>
-                    </ol></li>
-                <li ><a href="#">會員中心</a></li>
-                <li ><a href="#">最新消息</a></li>
-            </ul>
+                <ul class="navigator_foot">
+                    <li>
+                        <a href="#">關於我們</a>
+                        <ol>
+                            <li><a href="#">我們的目標</a></li>
+                            <li><a href="#">我們的行動</a></li>
+                        </ol>
+
+                    </li>
+                    <li>
+                        <a href="#">新鮮漁市</a>
+                        <ol>
+                            <li>
+                                <a href="#">事先預約</a>
+                            </li>
+                        </ol>
+
+                    </li>
+                    <li><a href="#">海鮮指南</a>
+                        <ol>
+                            <li>
+                                <a href="#">原則介紹</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="#">會員中心</a></li>
+                    <li><a href="#">最新消息</a></li>
+                </ul>
             </nav>
         </div>
+
         <div class="foot-bottom">
-            <a href="#" class="logo"></a>
+            <a href=".#" class="logo"></a>
             <ul class="foot-p">
                 <li>地址:新北市石門區楓林路527號1~2樓</li>
                 <li>電話:(02)2638-1122</li>
@@ -109,8 +524,10 @@
                 <li>營業時間:24小時全年無休</li>
                 <li>Line官方群組</li>
             </ul>
+            <img src="../image/index/QRCODE.png" alt="">
             <p class="article-2">本網站為緯育TibaMe前端工程師班第O期學員專題作品，本平台僅供學習、展示之用。</p>
         </div>
     </footer>
 </body>
+
 </html>
