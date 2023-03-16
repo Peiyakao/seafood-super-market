@@ -18,6 +18,12 @@ body {
     font-weight: bolder;
     letter-spacing: 10px;
     text-shadow: 10px 10px 20px #ffffff;
+    animation: fpgh1 2s ease-in-out forwards ;
+}
+@keyframes fpgh1{
+    0%{transform: scale(1,1);}
+    30%{transform: scale(1.5,1.5);}
+    100%{transform: scale(1,1);}
 }
 
 .first-page p {
@@ -27,6 +33,16 @@ body {
     font-weight: bolder;
     letter-spacing: 10px;
     text-shadow: 10px 10px 20px #ffffff;
+    opacity: 0;
+    animation: fpga 2s 1s ease-in-out forwards ;
+}
+@keyframes fpga{
+    0%{transform: scale(2,2);
+        opacity: .5;
+    }
+    35%{transform: scale(1.5,1.5);}
+    100%{transform: scale(1,1);
+        opacity: 1}
 }
 
 .first-page a {
@@ -42,31 +58,33 @@ body {
 .main-page {
     background-image: url("../image/seafoodgd/mainbg.png");
     width: auto;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    padding: 143px 350px 0 350px;
+    display: flex;
+    padding: 120px 30px 0 100px;
     background-repeat: no-repeat;
     height: 1341px;
 
 }
 
-.main-page aside {
-    /* margin-top: 200px; */
-}
-
 .main-page aside ul {
     display: flex;
-    margin-left: 200px;
+    margin-left: 117px;
+    flex-direction: column;
+    width: 300PX;
+}
+.main-page aside a{
+    background-image: url(../image/seafoodgd/ruleicon.png);
+    background-repeat: no-repeat;
+    width: 51px;
+    height: 51px;
+}
+.main-page aside a:hover{
+    background-image: url(../image/seafoodgd/ruleicon_click.png);
 
 }
 
 .main-page aside li {
-    display: flex;
-    flex-direction: column;
     margin-right: 10px;
 }
-
-
 
 .main-page li {
     display: flex;
@@ -76,7 +94,7 @@ body {
 
 .main-page p {
     font-size: 3rem;
-    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .main-page article {
@@ -84,6 +102,15 @@ body {
     margin-right: 200px;
     overflow: hidden;
 
+}
+.priciple-1-article h3{
+    animation: priciple1 2s forwards;
+}
+@keyframes priciple1{
+    0%{transform: scale(1,1);}
+    5%{transform: scale(2,2);}
+    30%{transform: scale(1,1);}
+    100%{transform: scale(1,1);}
 }
 
 .main-page article ul {
@@ -98,7 +125,7 @@ body {
     flex-direction: column;
     width: 900px;
     display: block;
-    margin-right: 400px;
+    margin-right: 260px;
     margin-top: 30px;
     transition: 1s;
 }
@@ -106,7 +133,7 @@ body {
 .main-page article li h3 {
     text-align: right;
     color: #7986F8;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     font-weight: bold;
 }
 
@@ -123,4 +150,7 @@ body {
 
 .foot {
     top: 2505px;
+}
+.first-page a:hover{
+    color: red;
 }

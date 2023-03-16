@@ -23,6 +23,7 @@ article {
 .right img {
     margin: 20px auto 0;
     display: block;
+    width: 300px;
 }
 
 .right ul {
@@ -86,4 +87,7 @@ select {
 
 .left img {
     height: 98.5%;
+}
+.foot{
+    top:1330px
 }

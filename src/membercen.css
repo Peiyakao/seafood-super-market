@@ -1,5 +1,7 @@
 @import url("reset.css");
 @import url("index.css");
+@import url("style.css");
+
 
 .first-page {
     background-image: url("../image/membercenter/background.png");
@@ -12,7 +14,7 @@
 
 .first-page-top {
     width: 80%;
-    display: block;
+    display: flex;
     margin: 0 auto;
 }
 
@@ -21,17 +23,51 @@
 }
 
 .first-page-top h2 {
-    margin-left: 150px;
+    margin-left: 165px;
+}
+.login-animate{
+    display: flex;
+    flex-direction: column;
+}
+.login-animate ul{
+    width: 900px;
+}
+.login-animate li{
+    
+    bottom: 10px;
+}
+.login-animate img{
+    width: 280px;
+    /* opacity: 0; */
+}
+
+.login-animate-1{
+    position: absolute;
+    animation: animate1 1s linear forwards;
+    right: 520px;
+    bottom: 0px;
+}
+.login-animate-2{
+    position: absolute;
+    animation: animate2 1.25s linear forwards;
+    left: 900px;
+    bottom: 0px;
+}
+.login-animate-3{
+    position: absolute;
+    right: 300px;
+    bottom: 0px;
+    animation: animate3 1.5s linear forwards;
 }
 
 .login-button {
     display: block;
     width: 250px;
-    height: 200px;
+    height: 100px;
     background-color: #8DF6F6;
     border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 1000px;
+    margin-top: 615px;
+    margin-left: 300px; 
     border: 2px solid white;
 
 }
@@ -41,7 +77,7 @@
     font-size: 4rem;
     background-color: #ffffff00;
     border: 0;
-    line-height: 200px;
+    line-height: 2.5;
     text-align: center;
 
 }
@@ -202,7 +238,7 @@
 
 .member-center article {
     display: flex;
-    padding: 20px 200px 0 200px;
+    padding: 70px 200px 0 200px;
     overflow: hidden;
 }
 
@@ -314,7 +350,7 @@
 .link li p {
     line-height: 50px;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     color: aliceblue;
     padding-top: 50px;
 
@@ -345,8 +381,7 @@
     border-radius: 20px;
 }
 .table-list p{
-    font-size: 3.5rem;
-    height: 50px;
+    font-size: 2.5rem;
     width: 200px;
     background-color: white;
     margin-top: 30px;
@@ -354,6 +389,7 @@
     border-radius: 15px;
     flex-grow: 1;
     text-align: right;
+    line-height: 50px;
 }
 
 .table-list {
@@ -465,7 +501,7 @@
     width: 270px;
     flex-grow: 1;
     margin-right: 10px;
-    display: none;
+    /* display: none; */
 }
 .member-order-content div ul li img{
     width: auto;
@@ -485,5 +521,107 @@
     line-height: 0;
 }
 .foot {
-    top: 4220px;
+    top: 4252px;
 }
+/*=========================================================animate*/
+@keyframes animate1{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    50%{
+        bottom: 200px;
+        opacity: 1;
+    }
+    85%{
+        transform: rotate(0deg);
+    }
+    90%{
+        bottom: 350px;
+        transform: rotate(40deg);
+    }
+    97%{
+        bottom: 400px;
+        transform: rotate(-40deg);
+    }
+    100%{ 
+        bottom:500px;
+        transform: rotate(0deg);
+    }
+}
+@keyframes animate2{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    50%{
+        bottom: 100px;
+        opacity: 1;
+
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    80%{
+        bottom: 150px;
+        transform: rotate(40deg);
+    }
+    97%{
+        bottom: 200px;
+        transform: rotate(-40deg);
+    }
+    100%{ 
+        bottom:250px;
+        transform: rotate(0deg);
+    }
+}
+@keyframes animate3{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    50%{
+        bottom: 100px;
+        opacity: 1;
+
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    80%{
+        bottom: 150px;
+        transform: rotate(40deg);
+    }
+    97%{
+        bottom: 170px;
+        transform: rotate(-40deg);
+    }
+    100%{ 
+        bottom:200px;
+        transform: rotate(0deg);
+    }
+}
+.login-button:hover{
+    background-color: #b9b7ff;
+    font-weight: bold;
+}
+.member-center-top-left a:hover{
+    background-color: #b9b7ff;
+    color: #fff;
+}
+.link li:hover{
+    background-color: #b9b7ff;
+}
+.link li:hover p{
+    color: #000;
+}
+.button-notmain-4:hover{
+    background-color: #b9b7ff;
+}
+.button-main-4:hover{
+    background-color: #b9b7ff;
+}
+.member-order-content button:hover{
+    color: #ff0000;
+}
+

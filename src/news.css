@@ -4,19 +4,20 @@
 
 .wrapper {
     background-image: url("../image/news/bg.png");
-    width: 100rw;
+    width: 100%;
     height: 1000px;
     padding: 150px 200px 0 200px;
     background-repeat: no-repeat;
     display: flex;
     overflow: hidden;
+    
 
 }
 
 .main-left-clock img {
     position: absolute;
-    left: 335px;
-    top: 150px;
+    left: 215px;
+    top: 205px;
 
 }
 
@@ -32,13 +33,13 @@
 .main-left-top h4 {
     color: azure;
     font-size: 6rem;
-    margin-top: 90px;
-    margin-left: 280px;
+    margin-top: 45px;
+    margin-left: 160px;
 }
 
 .star {
-    margin-top: 70px;
-    margin-left: 65px;
+    margin-top: 40px;
+    margin-left: 50px;
 }
 
 .main-left-new {
@@ -47,13 +48,17 @@
 }
 
 .main-left-new img {
-    margin-left: 150px;
+    margin-left: 20px;
     margin-bottom: 30px;
     width: 335px;
+    border-radius: 10px;
+}
+.main-left-new img:hover{
+    width: 350px;
 }
 
 .main-right {
-    margin-left: 20px;
+    margin-left: 180px;
 }
 
 .main-right-movie {
@@ -135,6 +140,7 @@
 }
 
 .main-right-news ul {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     background-color: #fff;
@@ -176,5 +182,5 @@
 }
 
 .foot {
-    top: 1064px;
+    top: 1172px;
 }

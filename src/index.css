@@ -11,7 +11,8 @@ header {
     height: 100px;
     background-color: rgba(255, 255, 255, .5);
     margin: 0 auto;
-    position: absolute;
+    position: relative;
+    z-index: 1;
 }
 
 .select-list-1 {
@@ -415,8 +416,9 @@ header h1 a {
 }
 
 .foot-bottom li {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fffefe;
+    margin-left: 200px;
 }
 
 .foot-bottom img {
@@ -429,4 +431,7 @@ header h1 a {
     flex-grow: 1;
     text-align: center;
     padding-top: 10px;
+}
+footer ol li:hover a{
+    color: aliceblue;
 }
