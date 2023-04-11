@@ -1,0 +1,844 @@
+@import url("reset.css");
+
+
+@import url("style.css");
+@import url("index.css");
+@import url("index_rwd.css");
+
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.first-page {
+    background-image: url("../image/membercenter/background.png");
+    background-size: cover;
+    width: 100%;
+    height: 704px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.first-page-top {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: right;
+}
+
+.first-page-first {
+    width: 100%;
+    margin-left: 500px;
+}
+
+.first-page-top h2 {
+    text-align: center;
+    width: 100%;
+    flex-grow: 1;
+    margin-top: 150px;
+}
+
+.login-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-animate {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.login-animate ul {
+    width: 100%;
+    position: absolute;
+}
+
+.login-animate li {
+
+    bottom: 10px;
+}
+
+.login-animate img {
+    width: 30%;
+    /* opacity: 0; */
+}
+
+.login-animate-1 {
+    position: absolute;
+    animation: animate1 1s linear forwards;
+    right: 520px;
+    bottom: 0px;
+}
+
+.login-animate-2 {
+    position: absolute;
+    animation: animate2 1.25s linear forwards;
+    left: 900px;
+    bottom: 0px;
+}
+
+.login-animate-3 {
+    position: absolute;
+    right: 300px;
+    bottom: 0px;
+    animation: animate3 1.5s linear forwards;
+}
+
+
+
+.login-input,
+.login-forgot,
+.add-member {
+    width: 40%;
+    height: 340px;
+    background-color: #f7f79d;
+    margin-top: 100px;
+    margin-right: 50px;
+    position: relative;
+    border-radius: 10px;
+    font-style: 1.5rem;
+    display: none;
+    transition: .5s;
+
+}
+
+.login-forgot .table-list p {
+    color: #000;
+}
+
+.add-member {
+    margin-right: 50px;
+    display: none;
+}
+
+.add-member .table-list p {
+    color: #000;
+}
+
+.login-forgot {
+
+    display: none;
+}
+
+.login-forgot h5,
+.add-member h5 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2.5rem;
+
+}
+
+.login-forgot-button,
+.login-add-button {
+    font-weight: 600;
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+.login-forgot-button button {
+    margin-right: 5px;
+}
+
+.login-forgot .table-list p {
+    background-color: #ffffff00;
+}
+
+.close {
+    border: 0;
+    background-color: #ffffff00;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .5s;
+
+}
+
+.login-input h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 3rem;
+}
+
+.login-input p {
+    font-size: 2rem;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.login-input input {
+    width: 80%;
+    border-radius: 10px;
+    line-height: 40px;
+    margin-left: 30px;
+    font-size: 2rem;
+}
+
+.password-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.password-btn .button-notmain-6 {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.forgot {
+    color: blue;
+    display: block;
+    font-size: 1.5rem;
+    margin: 1.5px 36px;
+    background-color: #ffffff00;
+    border: 0;
+    font-size: 1.5rem;
+}
+
+.watch-paw {
+    background-color: #00000000;
+    background-image: url("../image/membercenter/EYE_close.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    line-height: 1.5em;
+    border: 0;
+}
+
+.login-input div {
+    width: 100%;
+    text-align: center;
+    ;
+}
+
+.login-input .button-main-6,
+.button-notmain-6 {
+    /* width: 25%; */
+    line-height: 40px;
+    margin-right: 5px;
+    font-size: 2.5rem;
+    font-size: 2rem;
+}
+
+.first-page-bottom {
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    left: 217px;
+    top: 680px;
+
+}
+
+.first-page-bottom ul {
+    display: flex;
+    margin: 0 auto;
+}
+
+.first-page-bottom li {
+    display: flex;
+
+}
+
+.first-page-bottom li img {
+    width: 100%;
+
+}
+
+.member-center {
+    background-image: url("../image/membercenter/bg2.png");
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+.member-center-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #a5b8ff43;
+    height: 195px;
+}
+
+.member-center-top-right {
+    display: flex;
+    width: 30%;
+    justify-content: right;
+    align-items: flex-end;
+    margin-left: 50px;
+}
+
+.member-center-top-right div {
+    width: 50%;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+.member-center-top-right img {
+    width: 100%
+}
+
+.member-center-top-right p {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.member-center-top-left {
+    width: 50%;
+}
+
+.member-center-top-left h2 {
+    margin-bottom: 68px;
+    margin-top: 25px;
+}
+
+.member-center-top-left a {
+    display: block;
+    width: 20%;
+    line-height: 2;
+    text-decoration: none;
+    font-size: 2.5rem;
+    background-color: #00059d;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    border: 0;
+    margin-left: 500px;
+}
+
+.member-center article {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.member-card {
+    width: 18%;
+    background-color: black;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.member-card div {
+    margin-top: 20px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.member-card img {
+    width: 100%;
+}
+
+.member-card p {
+    color: white;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+.member-level {
+    width: 15%;
+    margin: 0 20px;
+}
+
+.member-level p {
+    font-size: 0.5rem;
+}
+
+.member-level h5 {
+    font-size: 2.5rem;
+}
+
+.member-level img {
+    width: 80%;
+}
+
+.member-experence {
+    width: 90%;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #ffffff3b;
+}
+
+.member-experence div {
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #4ee5f9ec;
+}
+
+.member-experence-statement p {
+    font-size: 1rem;
+}
+
+.member-center article ul {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.member-center article ul li {
+    width: 32%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.member-discount {
+    width: 60%;
+}
+
+.member-center article ul li p {
+    background-image: url("../image/membercenter/bonus.png");
+    background-size: cover;
+    box-sizing: border-box;
+    min-width: 160px;
+    min-height: 160px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    font-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding-top: 52px;
+
+}
+
+.link {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.link ul {
+    display: flex;
+    justify-content: center;
+}
+
+.link li {
+    width: 200px;
+    height: 200px;
+    border: 1.5px solid white;
+    border-radius: 100%;
+    margin-right: 30px;
+    margin-top: 20px;
+    background-color: #aac3fc;
+
+}
+
+.link li p {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.link li button {
+    background-color: #ffffff00;
+    border: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("../image/membercenter/fishborder1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.link-btn2 p {
+    line-height: 90px;
+}
+
+.link-btn3 p {
+    line-height: 1.5px;
+
+}
+
+.link-btn3 a,
+.link-btn4 a {
+    font-size: 2rem;
+    padding-top: 84px;
+    box-sizing: border-box;
+    height: 200px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.link-btn4 p {
+    line-height: 90px;
+}
+
+.member-order-button .active {
+    background-color: #5d8efe;
+}
+
+
+.member-data-add-content-member {
+    display: none;
+}
+
+.member-data-add-content-member .table-list {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 0;
+}
+
+
+.member-data-add-content-member .table-list select {
+    width: 12%;
+    height: 40px;
+    background-color: #ffffff8a;
+    border-radius: 2px;
+    border: 0;
+    font-size: 2rem;
+}
+
+.add-content-member-btn {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.member-data-add-content-member .add-address li {
+    display: flex;
+}
+
+.member-data-add-content-member .add-address input {
+    width: 57%;
+}
+
+.member-data-add-content-member .button-notmain-4 {
+    margin: 20px 120px;
+}
+
+.member-data-look,
+.member-add-data {
+    background-image: url("../image/membercenter/bg2.png");
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.member-data-look-content {
+    width: 60%;
+    background-color: #1255a1;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+#normal-data {
+    margin: 0;
+    height: 486px;
+}
+
+.normal-look {
+    margin: 0 auto;
+}
+
+.member-data-look article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+
+.member-data-password-add-btn {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.data-look-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.data-look-btn button {
+    width: 147px;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.table-list p {
+    font-size: 2rem;
+    width: 20%;
+    color: white;
+    text-align: right;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.table-list {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 45px auto 0;
+
+}
+
+.table-list li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.table-list input {
+    width: 80%;
+    height: 40px;
+    background-color: #ffffff8a;
+    border-radius: 10px;
+    font-size: 2rem;
+    border: #ffffff00;
+}
+
+.member-data-add-content-member.table-list input {
+    width: 60%;
+    height: 40px;
+    background-color: #ffffff8a;
+    border-radius: 10px;
+    font-size: 2rem;
+    border: #ffffff00;
+}
+
+
+.member-data-look-content-password .table-list {
+    align-items: center;
+}
+
+.member-data-look-content-password .table-list li {
+    width: 80%;
+}
+
+.member-data-look-content-password .table-list li p {
+    width: 20%;
+}
+
+
+.member-data-side-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.member-data-side-button button {
+    height: 150px;
+    width: 38px;
+    border-radius: 2px;
+}
+
+.member-data-side-button button:hover {
+    font-size: 2.5rem;
+}
+
+.member-data-look-content-password {
+    margin-top: 95px;
+    display: none;
+}
+
+.member-data-look-content .button-main-4 {
+    background-color: #94cafc;
+}
+
+.member-data-look-content-password-fix {
+    display: none;
+}
+
+.password-fix-btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.member-data-look-content-password-fix .button-notmain-4 {
+    margin-left: 300px;
+    margin-right: 30px;
+}
+
+.member-order {
+    background-image: url("../image/membercenter/bg2.png");
+    background-size: cover;
+    height: 760px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: none;
+
+}
+
+.member-order-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-order-button {
+    width: 61%;
+    margin: 60px auto;
+    margin-bottom: 0;
+}
+
+.member-order-button button {
+    height: 54px;
+    margin-bottom: 0;
+    border-radius: 8px;
+
+}
+
+.member-order-button button.button-main-4 {
+    margin-left: 90px;
+}
+
+.member-order-list {
+    width: 75%;
+    margin: 0px auto;
+    height: 700px;
+    flex-grow: 1;
+
+
+}
+
+.member-order-list ul {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    background-color: #57B0E2;
+    border-radius: 7px;
+    margin-left: 90px;
+    overflow: auto;
+}
+
+.member-order-list li {
+    display: flex;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.member-order-list p {
+    width: 20%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.member-order-content li p {
+    line-height: 2.5;
+}
+
+.member-order-content button {
+    background-color: #ffffff00;
+    color: rgb(0, 17, 255);
+    border: #ffffff00;
+    font-size: 2rem;
+}
+
+.member-order-content div ul {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+
+.member-order-content div ul li {
+    border-bottom: 1px solid #000;
+}
+
+.member-order-content div ul li p {
+    width: 20%;
+}
+
+.member-order-content div ul li img {
+    width: 20%;
+}
+
+.member-order-content-detail {
+
+    display: flex;
+    flex-direction: row;
+    max-height: 0;
+    overflow: hidden;
+    box-sizing: content-box;
+    transition: all .5s;
+}
+
+.member-order-content-detail li {
+    margin-top: 0;
+}
+
+
+
+.shopping-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.shopping-list h5 {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.shopping-list-text {
+    font-size: 2.5rem;
+    line-height: 0;
+}
+
+
+/*=========================================================animate*/
+
+.member-center-top-left a:hover {
+    background-color: #8eccff;
+    color: #000;
+}
+
+.link li:hover {
+    background-color: #8eccff;
+    color: #ff6262;
+}
+
+.link li button:hover {
+
+    background-image: url("../image/membercenter/fishborder3.png");
+}
+
+.link li:hover p {
+    color: #000;
+}
+
+.button-notmain-4:hover {
+    background-color: #8eccff;
+    color: #000;
+}
+
+.button-main-4:hover {
+    background-color: #8eccff;
+    color: #000;
+}
+
+.member-order-content button:hover {
+    color: #ff0000;
+}

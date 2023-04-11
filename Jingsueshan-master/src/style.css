@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap);
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Noto Sans HK", Helvetica, sans-serifArial, ;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 3.5rem;
+}
+
+h5 {
+    font-size: 3rem;
+}
+
+.color-1 {
+    color: #41DADA;
+}
+
+.color-2 {
+    color: #57B0E2;
+}
+
+.color-3 {
+    color: #7986F8;
+}
+
+.color-4 {
+    color: #7986F8;
+}
+
+.color-5 {
+    color: #C4C6DF;
+}
+
+.color-6 {
+    color: #FFFFFF;
+}
+
+.text-color-1 {
+    color: #000000;
+}
+
+.text-color-2 {
+    color: #FFFFFF;
+}
+
+.text-color-3 {
+
+    color: #0500FF;
+}
+
+.article-2 {
+    font-size: 3rem;
+}
+
+.article-2-textcol-2 {
+    color: #57B0E2;
+}
+
+.button-main-1 {
+    border-radius: 10px;
+    width: 384px;
+    height: 97px;
+    color: #FFFFFF;
+    background-color: #00059d;
+    border: .5px solid rgb(255, 254, 253);
+    font-size: 4rem;
+
+}
+
+.button-notmain-1 {
+    border-radius: 10px;
+    width: 384px;
+    height: 97px;
+    color: #FFFFFF;
+    background-color: #00059d;
+    border: .5px solid wheat;
+    font-size: 4rem;
+
+}
+
+
+.button-main-3 {
+    border-radius: 10px;
+    width: 200px;
+    height: 75px;
+    color: #FFFFFF;
+    background-color: #00059d;
+    border: .5px solid wheat;
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+.button-notmain-3 {
+    width: 200px;
+    height: 75px;
+    background: #00059d;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 4rem;
+    border: .5px solid rgb(240, 238, 238);
+
+}
+
+.button-main-4 {
+    border-radius: 10px;
+    width: 180px;
+    height: 80px;
+    color: #FFFFFF;
+    background-color: #00059d;
+    border: .5px solid wheat;
+    font-size: 2.5rem;
+
+}
+
+.button-notmain-4 {
+    width: 180px;
+    height: 80px;
+    background: #00059d;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    border: .5px solid rgb(240, 238, 238);
+
+}
+
+.button-main-6 {
+    width: 120px;
+    height: 55.11px;
+    background: #00059d;
+    font-weight: 800;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 2rem;
+    border: .5px solid rgb(240, 238, 238);
+
+}
+
+.button-notmain-6 {
+    width: 120px;
+    height: 55.11px;
+    background: #00059d;
+    font-weight: 800;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 2rem;
+    border: .5px solid rgb(240, 238, 238);
+
+}
+
+/*======================================================================*/
+.button-notmain-1:hover {
+    background-color: #8eccff;
+    color: #000;
+
+}
+
+.button-main-1:hover {
+    background-color: #8eccff;
+    color: #000;
+}
+
+.button-notmain-3:hover {
+    background-color: #8eccff;
+    color: #000;
+}
+
+.button-main-3:hover {
+    background-color: #8eccff;
+    color: #000;
+}
+
+.button-notmain-4:hover {
+    background-color: #8eccff;
+    color: #000;
+}
+
+.button-main-4:hover {
+    background-color: #8eccff;
+    color: #000;
+}
+
+.button-notmain-6:hover {
+    background-color: #8eccff;
+    color: #000;
+}
+
+.button-main-6:hover {
+    background-color: #8eccff;
+    color: #000;
+}

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品購物車</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="stylesheet" href="../src/shopcar.css">
+    <link rel="stylesheet" href="../src/shoppingcar_rwd.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 class="logo"><a href="https://peiyakao.github.io/Jingsueshan/"></a></h1>
+            <button class="ham">
+                <p class="ham-1"></p>
+                <p class="ham-2"></p>
+                <p class="ham-3"></p>
+            </button>
+            <nav>
+                <ul class="navigator">
+                    <li class="navigator-li">
+                        <a href="https://peiyakao.github.io/Jingsueshan/">首頁</a>
+                        <img class="select-list-1" src="../image/index/fish_flag.png" alt="select-list">
+                        <ol class="navigator-ol-1">
+                            <li>
+                                <a href="https://peiyakao.github.io/Jingsueshan/" class="navigator-ol-a"
+                                    id="link1">關於我們</a>
+                            </li>
+                            <li>
+                                <a href="https://peiyakao.github.io/Jingsueshan/" class="navigator-ol-a"
+                                    id="link2">目標</a>
+                            </li>
+                            <li>
+                                <a href="https://peiyakao.github.io/Jingsueshan/" class="navigator-ol-a"
+                                    id="link3">行動</a>
+                            </li>
+                        </ol>
+
+                    </li>
+                    <li class="navigator-li">
+                        <a href="https://peiyakao.github.io/Jingsueshan/index/shoping_center">新鮮漁市</a>
+
+                    </li>
+                    <li class="navigator-li"><a href="https://peiyakao.github.io/Jingsueshan/index/news">最新消息</a></li>
+                    <li class="navigator-li">
+                        <a href="https://peiyakao.github.io/Jingsueshan/index/seafood_guild">海鮮指南</a>
+
+                    </li>
+                    <li class="navigator-li"><a
+                            href="https://peiyakao.github.io/Jingsueshan/index/membercenter">會員中心</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+    <div class="wrapper">
+        <section class="index-page">
+            <div class="index-page-left">
+                <h2 class="animate__animated animate__jackInTheBox">金速鱻購物車</h2>
+                <img src="../image/shoppingcargo/fisrt-page-img.png" alt="">
+            </div>
+            <div class="index-page-right">
+                <h3>購物車商品</h3>
+                <button class="click-here">click here<img src="" alt=""></button>
+                <div class="index-page-move">
+                    <img src="../image/shoppingcargo/fish1.png" alt="" class="movement-1">
+                    <img src="../image/shoppingcargo/fish2.png" alt="" class="movement-2">
+                    <img src="../image/shoppingcargo/jelly.png" alt="" class="movement-3">
+                    <img src="../image/shoppingcargo/coral.png" alt="" class="movement-4">
+                </div>
+
+            </div>
+        </section>
+
+        <div class="first-page" id="flipbook">
+            <div class="first-page-main-left">
+                <h3>購物車商品</h3>
+                <section class="first-page-buy-information">
+                    <ul class="index">
+                        <li>
+                            <ol>
+                                <li class="choose">選取</li>
+                                <li class="photo">圖片</li>
+                                <li class="name">名稱</li>
+                                <li class="size">規格</li>
+                                <li class="price">單價</li>
+                                <li class="amount">數量
+                                </li>
+                                <li class="total">金額</li>
+                                <li class="del">刪除</li>
+                            </ol>
+                    </ul>
+                    <ul class="buy-item">
+                        <li class="item">
+                            <ol>
+                                <li class="choose"><input type="checkbox" checked="checked" class="choose-input"></li>
+                                <li class="photo"><img src="../image/shoppingcargo/item_01.png" alt=""></li>
+                                <li class="name">鬼頭刀</li>
+                                <li class="size">S</li>
+                                <li class="price">300</li>
+                                <li class="amount">
+                                    <button class="minus">-</button>
+                                    <input type="text" disabled placeholder="5" value="5">
+                                    <button class="plus">+</button>
+                                </li>
+                                <li class="total">1500</li>
+                                <li class="del"><button class="del-btn"><img src="../image/shoppingcargo/trash.png"
+                                            alt=""></button>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="item">
+                            <ol>
+                                <li class="choose"><input type="checkbox" checked="checked" class="choose-input"></li>
+                                <li class="photo"><img src="../image/shoppingcargo/item_02.png" alt=""></li>
+                                <li class="name">文蛤
+                                </li>
+                                <li class="size">S</li>
+                                <li class="price">40</li>
+                                <li class="amount">
+                                    <button class="minus">-</button>
+                                    <input type="text" disabled placeholder="3" value="3">
+                                    <button class="plus">+</button>
+                                </li>
+                                <li class="total">120</li>
+                                <li class="del"><button class="del-btn"><img src="../image/shoppingcargo/trash.png"
+                                            alt=""></button>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="item">
+                            <ol>
+                                <li class="choose"><input type="checkbox" checked="checked" class="choose-input"></li>
+                                <li class="photo"><img src="../image/shoppingcargo/item_03.png" alt=""></li>
+                                <li class="name">白帶魚</li>
+                                <li class="size">S</li>
+                                <li class="price">80</li>
+                                <li class="amount">
+                                    <button class="minus">-</button>
+                                    <input type="text" disabled placeholder="30" value="30">
+                                    <button class="plus">+</button>
+                                </li>
+                                <li class="total">2400</li>
+                                <li class="del"><button class="del-btn"><img src="../image/shoppingcargo/trash.png"
+                                            alt=""></button>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </section>
+                <section class="first-page-price-information">
+                    <ul>
+                        <li>
+                            <p>小計</p>
+                            <span>+$
+                                <p class="total-price">4020</p>
+                            </span>
+                        </li>
+                        <li>
+                            <p>運送方式</p>
+                            <select name="" id="delivery">
+                                <option value="1">宅配</option>
+                                <option value="2">超商取貨</option>
+                            </select>
+                            <span>+$
+                                <p class="delivery-price">200</p>
+                            </span>
+
+                        </li>
+                        <li>
+                            <p>選擇優惠券</p>
+                            <select name="" id="bonus">
+                                <option value="0" class="delivery-price-none"></option>
+                                <option value="1" class="delivery-price-none">免運優惠</option>
+                            </select>
+                            <span>-$
+                                <p class="price-none">0</p>
+                            </span>
+
+                        </li>
+                    </ul>
+                    <div>
+                        <h5>總金額:$</h5>
+                        <p class="finall-price">$4,020</p>
+                    </div>
+                </section>
+                <div class="first-page-bottom">
+                    <button class="btn-last-step" id="close-car">關閉購物車</button>
+                    <button class="btn-next-step" id="ready-to-pay">結帳</button>
+                </div>
+            </div>
+            <div class="first-page-main-right">
+                <div class="first-page-information">
+                    <h3>訂單資訊</h3>
+                    <div class="first-page-information-list">
+                        <section class="first-page-information-order">
+                            <div>訂購人資訊</div>
+                            <ul>
+
+                                <li>
+                                    <ul>
+                                        <li><input type="checkbox" name="select1" id="select1">
+                                            <label for="select1">同會員資料</label>
+                                        </li>
+                                        <li>
+                                            <p class="form-infor">姓名</p><input type="text" class="input">
+                                        </li>
+                                        <li>
+                                            <p class="form-infor">性別</p><input type="text" class="input">
+                                        </li>
+                                        <li>
+                                            <p class="form-infor">電話</p><input type="text" class="input">
+                                        </li>
+                                        <li>
+                                            <p class="form-infor">電子郵件</p><input type="text" class="input">
+                                        </li>
+                                        <li>
+                                            <p class="form-infor">地址</p><input type="text" class="input">
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="first-page-information-receive">
+                            <div>收件人資訊</div>
+                            <ul>
+
+                                <li>
+                                    <ul>
+                                        <li><input type="checkbox" name="select2" id="select2">
+                                            <label for="select2">同訂購人資料</label>
+                                        </li>
+                                        <li>
+                                            <p class="form-infor">姓名</p><input type="text" class="input">
+                                        </li>
+                                        <li>
+                                            <p class="form-infor">性別</p><input type="text" class="input">
+                                        </li>
+                                        <li>
+                                            <p class="form-infor">電話</p><input type="text" class="input">
+                                        </li>
+                                        <li>
+                                            <p class="form-infor">電子郵件</p><input type="text" class="input">
+                                        </li>
+                                        <li>
+                                            <p class="form-infor">地址</p><input type="text" class="input">
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+                <div class="first-page-bottom">
+                    <button class="btn-last-step">上一步</button>
+                </div>
+            </div>
+
+            <div class="second-page-main-left">
+                <h3>確認訂單</h3>
+                <ul>
+                    <li class="name">名稱</li>
+                    <li class="size">規格</li>
+                    <li class="price">單價</li>
+                    <li class="amount">數量</li>
+                    <li class="total">金額</li>
+                </ul>
+                <ol>
+                    <!-- <li>
+                        <ul>
+                            <li class="name">鬼頭刀</li>
+                            <li class="size">S</li>
+                            <li class="price">$300</li>
+                            <li class="amount">5</li>
+                            <li class="total">$1500</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="name">文蛤</li>
+                            <li class="size">S</li>
+                            <li class="price">$40</li>
+                            <li class="amount">3</li>
+                            <li class="total">$120</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="name">白帶魚</li>
+                            <li class="size">S</li>
+                            <li class="price">$80</li>
+                            <li class="amount">30</li>
+                            <li class="total">$2400</li>
+                        </ul>
+                    </li> -->
+                </ol>
+                <div class="second-page-line"></div>
+                <div class="second-page-price">
+                    <h5>總金額:$</h5>
+                    <p class="finall-price"></p>
+                </div>
+                <div class="first-page-bottom">
+                    <button class="btn-next-step">下一步</button>
+                </div>
+            </div>
+            <div class="second-page-main-right">
+                <h3>付款方式</h3>
+                <div class="pay-select">
+                    <ul>
+                        <li class="pay-select-line-pay">
+                            <button>
+                                <p>線上支付</p>
+                            </button>
+                        </li>
+                        <li class="pay-select-market">
+                            <button>
+                                <p>超商代收</p>
+                            </button>
+                        </li>
+                        <li class="pay-select-inhand">
+                            <button>
+                                <p>貨到付款</p>
+                            </button>
+                        </li>
+                        <li class="pay-select-credit">
+                            <button>
+                                <p>信用卡支付</p>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="credit-card">
+                    <h5>信用卡資訊</h5>
+                    <ul>
+                        <li class="bank-list">
+                            <p>金融機構</p>
+                            <select name="" id="">
+                                <option value="">001中央信託</option>
+                                <option value="">003交通銀行</option>
+                                <option value="">004台灣銀行</option>
+                                <option value="">005土地銀行</option>
+                            </select>
+                        </li>
+                        <li class="card-no">
+                            <p>卡號</p>
+                            <input type="text" name="" id="">
+                            <input type="text" name="" id="">
+                            <input type="text" name="" id="">
+                            <input type="text" name="" id="">
+                        </li>
+                        <li>
+                            <p>持卡人姓名</p>
+                            <input type="text" name="" id="">
+                        </li>
+                        <li class="valiate-time">
+                            <p>有效日期</p>
+                            <select class="valiate-month">
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <label for="valiate-month">月</label>
+                            <select class="valiate-year">
+                                <option value="1">2023</option>
+                                <option value="2">2024</option>
+                                <option value="3">2025</option>
+                                <option value="4">2026</option>
+                                <option value="5">2027</option>
+                                <option value="6">2028</option>
+                                <option value="7">2029</option>
+                                <option value="8">2030</option>
+                                <option value="9">2031</option>
+                                <option value="10">2032</option>
+                            </select>
+                            <label for="valiate-year">年</label>
+                        </li>
+                        </li>
+                        <li>
+                            <p>驗證碼</p>
+                            <input type="text" name="" id="">
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="first-page-bottom">
+                    <button class="btn-last-step">上一步</button>
+                    <button class="btn-next-step" id="pay-money" disabled>付款</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="finish">
+            <div>
+                <div>
+                    <h5>交易完成</h5>
+                    <ul>
+                        <li class="experience-descipt">本次交易獲得<p class="finall-price">4020</p>友善點數 </li>
+                        <li>
+                            <div class="experience">
+                                <p>環境友善等級</p>
+                                <div class="experience-top">
+                                    <img src="../image/shoppingcargo/dolfin.png" alt="">
+                                    <p class="level">海豚之子Son of dolfin</p>
+                                </div>
+                                <p>經驗值</p>
+                                <div class="experience-mid">
+                                    <div class="experience-mid-num">
+                                        <p>EXP</p>
+                                        <p class="experience-num">5000</p>
+                                    </div>
+                                    <div class="experience-mid-bar">
+                                        <p class="experience-bar"></p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="experience-back">
+                            <p class="count-time">5</p>秒後跳轉回賣場
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="foot-2">
+        <div class="foot-main">
+            <nav>
+                <ul class="navigator_foot">
+                    <li>
+                        <a href="https://peiyakao.github.io/Jingsueshan/">關於我們</a>
+                        <ol>
+                            <li><a href="https://peiyakao.github.io/Jingsueshan/">我們的目標</a></li>
+                            <li><a href="https://peiyakao.github.io/Jingsueshan/">我們的行動</a></li>
+                        </ol>
+
+                    </li>
+                    <li>
+                        <a href="https://peiyakao.github.io/Jingsueshan/index/shoping_center">新鮮漁市</a>
+                        <ol>
+                            <li>
+                                <a href="https://peiyakao.github.io/Jingsueshan/index/shoping_center">事先預約</a>
+                            </li>
+                        </ol>
+
+                    </li>
+                    <li><a href="https://peiyakao.github.io/Jingsueshan/index/seafood_guild">海鮮指南</a>
+                        <ol>
+                            <li>
+                                <a href="https://peiyakao.github.io/Jingsueshan/index/seafood_guild">原則介紹</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="https://peiyakao.github.io/Jingsueshan/index/membercenter">會員中心</a></li>
+                    <li><a href="https://peiyakao.github.io/Jingsueshan/index/news">最新消息</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="foot-bottom">
+            <a href="https://peiyakao.github.io/Jingsueshan/" class="logo"></a>
+            <ul class="foot-p">
+                <li>地址:新北市石門區楓林路527號1~2樓</li>
+                <li>電話:(02)2638-1122</li>
+                <li>客服信箱:cupeiya@jinsushan.com.tw</li>
+                <li>營業時間:24小時全年無休</li>
+                <li>Line官方群組</li>
+            </ul>
+            <img src="../image/index/QRCODE.png" alt="">
+            <p class="article-2">本網站為緯育TibaMe前端工程師班第O期學員專題作品，本平台僅供學習、展示之用。</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../turnjs4/lib/turn.js"></script>
+    <script src="../src/shopcar.js"></script>
+</body>
+
+</html>

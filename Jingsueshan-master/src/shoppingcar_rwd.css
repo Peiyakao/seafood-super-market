@@ -1,0 +1,196 @@
+@media screen and (max-width:420px) {
+    nav{
+        z-index: 50;
+    }
+    .first-page{
+        width: auto;
+    }
+    .wrapper{
+        top: 10px;
+        background-image: url("../image/shoppingcargo/bg_rwd.png");
+    }
+    .index-page-right button{
+        margin-left: 205px;
+    }
+    #flipbook{
+        top: 54px;
+    }
+    .index-page h2{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .index-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .index-page-left{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .index-page-left img{
+        display: none;
+    }
+    .index-page-right{
+        height: 364px;
+        width: 66%;
+        margin-top: 57px;
+        padding: 0;
+    }
+    .index-page-right h3{
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom:54px;
+    }
+    .movement-3{
+        width: 20%;
+        top: 128px;
+    }
+    .movement-4 {
+        left: 196px;
+        top: 273px;
+        width: 28%;
+    }
+    .movement-2 {
+        left: 147px;
+        top: 285px;
+        width: 28%;
+    }
+    .movement-1 {
+        left: 170px;
+        top: 228px;
+    }
+    .first-page-bottom{
+        margin-top: 25px;
+    }
+    .first-page-main-left h3,.first-page-information h3, .second-page-main-left h3, .second-page-main-right h3{
+        margin-top: 50px;
+        font-size: 2rem;
+    }
+    .buy-item img {
+        width: 80%;
+    }
+    .amount button{
+        width: 15px;
+    }
+    .amount input{
+        width: 14px;
+    }
+    .buy-item .amount{
+        margin-bottom: 0;
+    }
+    .first-page-buy-information{
+        margin-right: 47px;
+    }
+    .first-page-price-information li{
+        margin-top: 0;
+    }
+    .first-page-price-information li p{
+        font-size: 1rem;
+    }
+    .first-page-price-information li select{
+        font-size: 1rem;
+    }
+    .first-page-price-information li{
+        line-height: 2;
+    }
+    .first-page-price-information div p ,.first-page-price-information div h5{
+        font-size: 2.5rem;
+    }
+    .first-page-bottom button{
+        width: 24%;
+        height: 30px;
+    }
+    .first-page-information-order, .first-page-information-receive{
+        margin-top: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-infor{
+        width: 13%;
+    }
+    .first-page-information-list {
+        overflow: auto;
+        height: 320px;
+        
+    }
+    .first-page-information-order .input, .first-page-information-receive .input{
+        height: 28px;
+    }
+    .first-page-information-order div, .first-page-information-receive div {
+        font-size: 1rem;
+    }
+    
+    .first-page-main-right button,.second-page-main-left button{
+        display: none;
+    }
+    .second-page-main-left ol{
+        height: 110px;
+        max-height: 200px;
+    }
+    .second-page-line{
+        background-size: contain;
+    }
+    .second-page-main-left h5, .finall-price, .first-page-price-information h5{
+        margin-top: 0;
+    }
+    .credit-card h5{
+        font-size: 2rem;
+    }
+    .credit-card{
+        margin-top: 0;
+    }
+    .second-page-main-left ul li{
+        font-size: 1.5rem;
+    }
+    .pay-select ul li p{
+        font-size: 1rem;
+    }
+    .pay-select ul li p{
+        margin-bottom:48px;
+    }
+    .finish{
+        
+        width: 80%;
+        height: 233px;
+        z-index: 10;
+    }
+    .finish h5{
+        font-size: 2rem;
+    }
+    .experience{
+        width: 90%;
+    }
+    .experience-mid-bar{
+        background-size: contain;
+    }
+    .experience-mid-bar .experience-bar{
+        margin-bottom: 7.5px;
+    }
+    .experience p{
+        margin-left: 0;
+    }
+    .experience-mid-num{
+        margin-left: 144px;
+    }
+    .pay-select{
+        margin-left: 30px;
+    }
+    .pay-select ul li button{
+        height: 91px;
+        margin-right: 1px;
+    }
+    .outline{
+        outline:2px solid #32a1ce;
+        transition: .1s;
+        transform: scale(1);
+    }
+    .first-page-information-order ul li, .first-page-information-receive ul li{
+        margin-bottom: 10px;
+    }
+    
+}

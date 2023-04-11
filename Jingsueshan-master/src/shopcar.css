@@ -1,0 +1,743 @@
+@import url("reset.css");
+@import url("style.css");
+@import url("index.css");
+@import url("index_rwd.css");
+
+body {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+    background-image: url("../image/shoppingcargo/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 700px;
+    height: 682px;
+    min-height: 600px;
+}
+
+.index-page {
+    transition: 1s;
+}
+
+.index-page-left {
+    box-sizing: border-box;
+    float: left;
+    width: 45%;
+    padding: 10px 0 0 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.index-page-left img {
+    width: 65%;
+}
+
+.index-page-right {
+    position: relative;
+    background-image: url("../image/shoppingcargo/first-page-img-r.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 477px;
+    float: right;
+    box-sizing: border-box;
+    width: 45%;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.index-page h2,
+h3 {
+    color: #ffffff;
+}
+
+.index-page h2 {
+    padding-bottom: 102px;
+    font-size: 5rem;
+    font-weight: 700;
+    text-shadow: #000;
+
+}
+
+.index-page-right h3 {
+    text-align: center;
+    width: 50%;
+    font-weight: 600;
+    margin-bottom: 44px;
+}
+
+.index-page-right button {
+    margin-left: 291px;
+    width: 75px;
+    height: 70px;
+    border: 0;
+    background-color: #00000000;
+}
+
+.index-page-move img {
+    position: absolute;
+}
+
+.movement-1 {
+    left: 234px;
+    top: 345px;
+}
+
+.movement-2 {
+    left: 200px;
+    top: 405px;
+    z-index: 2;
+}
+
+.movement-3 {
+    left: 25px;
+    top: 150px;
+}
+
+.movement-4 {
+    left: 262px;
+    top: 383px;
+}
+
+
+.first-page {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #A47125;
+    display: none;
+
+
+}
+
+.first-page-main {
+    display: flex;
+    padding: 10px 344px;
+}
+
+.first-page-main-left {
+    background-image: url("../image/shoppingcargo/1st-l-page-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 50%;
+    height: 650px;
+
+}
+
+.first-page-main-left h3,
+.first-page-information h3,
+.second-page-main-left h3,
+.second-page-main-right h3 {
+    text-align: center;
+    font-weight: 700;
+    margin: 10px auto;
+    margin-top: 60px;
+    width: 100%;
+    color: #000;
+}
+
+
+
+
+.first-page-buy-information {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first-page-buy-information .index {
+    background-color: #ffffff72;
+    border-radius: 3px;
+}
+
+.first-page-buy-information .index li {
+    font-weight: 600;
+}
+
+.buy-item {
+    overflow: auto;
+}
+
+.buy-item img {
+    width: 100%;
+}
+
+.buy-item li {
+    align-items: center;
+}
+
+.index li ol li p {
+    font-size: 1.5rem;
+
+}
+
+.first-page-main-left li {
+    border: #00000000;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #ffffff79;
+}
+
+.photo {
+    width: 20%;
+}
+
+.choose {
+    width: 10%;
+}
+
+.name {
+    width: 20%
+}
+
+.size {
+    width: 10%;
+}
+
+.price {
+    width: 15%;
+}
+
+.del {
+    width: 10%;
+}
+
+.del button {
+    background-color: #ffffff00;
+    border: 0;
+    margin-top: 10px;
+}
+
+.del button:hover {
+    background-color: #ffdada;
+}
+
+.del img {
+    width: 50%;
+}
+
+.amount {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.buy-item .amount {
+    margin-bottom: 22px;
+}
+
+.amount button {
+    width: 20px;
+    height: 25px;
+    background-color: #e0e0e0;
+    border: 0;
+}
+
+.amount button:hover {
+    background-color: #c7ffe9;
+}
+
+.amount input {
+    width: 25px;
+    height: 19px;
+    text-align: center;
+    border: 0;
+}
+
+
+.total {
+    width: 18%
+}
+
+.first-page-main-left ol {
+    display: flex;
+    line-height: 50px;
+    border-radius: 10px;
+    border-bottom: .5 solid rgb(144, 112, 85);
+}
+
+.first-page-price-information {
+    width: 100%;
+}
+
+.first-page-price-information ul {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.first-page-price-information p:first-child {
+    width: 25%;
+}
+
+.first-page-price-information span {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-size: 1.5rem;
+    width: 25%;
+}
+
+
+
+.first-page-price-information li {
+    background-image: url("../image/shoppingcargo/small-line.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    line-height: 2.5;
+    margin-top: 10px;
+    background-color: #ffffff00;
+    justify-content: space-between;
+}
+
+.first-page-price-information li p {
+    font-size: 1.5rem;
+    width: 33%;
+}
+
+.first-page-price-information li select {
+    font-size: 1.5rem;
+    width: 25%;
+    border: 0;
+    margin-top: 5px;
+    background-color: #ffffff62;
+}
+
+.first-page-price-information h5 {
+    text-align: center;
+}
+
+.first-page-price-information div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.first-page-price-information div p {
+    font-size: 3rem;
+}
+
+.first-page-bottom {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-page-bottom button {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 40px;
+    border: 0;
+    background-color: #ffffff00;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.btn-last-step {
+    background-image: url("../image/shoppingcargo/left-arrow.png");
+}
+
+.btn-next-step {
+    background-image: url("../image/shoppingcargo/right-arrow.png");
+}
+
+.first-page-main-right {
+    background-image: url("../image/shoppingcargo/page-r-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 50%;
+    height: 650px;
+}
+
+.first-page-information {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.first-page-information-order,
+.first-page-information-receive {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.first-page-information-order ul,
+.first-page-information-receive ul {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.first-page-information-order ul li,
+.first-page-information-receive ul li {
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    flex-grow: 1;
+}
+
+.form-infor {
+    width: 10%;
+    height: 30px;
+    font-size: 1.5rem;
+    border: 0;
+    line-height: 1;
+    text-align: left;
+}
+
+.first-page-information-order div,
+.first-page-information-receive div {
+    width: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 5px;
+    line-height: 2;
+}
+
+.first-page-information-order .input,
+.first-page-information-receive .input {
+    width: 80%;
+    height: 30px;
+    font-size: 1.5rem;
+    border: 0;
+    line-height: 2;
+    background-color: #ffffff5f;
+
+}
+
+.first-page-main-right .first-page-bottom {
+    margin-top: 20px;
+}
+
+.second-page {
+    position: relative;
+    display: flex;
+    width: 85%;
+    height: 500px;
+    margin: 5px auto 0;
+}
+
+.second-page-main-left,
+.second-page-main-right {
+    background-image: url("../image/shoppingcargo/2nd-l-page-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 50%;
+    height: 650px;
+}
+
+.second-page-main-right {
+    background-image: url("../image/shoppingcargo/last-pg-bg.png");
+
+}
+
+.second-page-main-left ul {
+    display: flex;
+    width: 80%;
+    margin: 15px auto 0;
+    justify-content: center;
+
+}
+
+.second-page-main-left ol {
+    overflow: auto;
+    height: 300px;
+    background-color: #ffffff82;
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 54px;
+
+}
+
+.second-page-main-left ol ul {
+
+    width: 100%;
+
+}
+
+.second-page-main-left ul li {
+    font-size: 2rem;
+    width: 20%;
+    text-align: center;
+
+}
+
+.second-page-main-left ul li {
+    font-size: 2rem;
+
+}
+
+.second-page-main-left h5,
+p {
+    text-align: center;
+    margin-right: 2px;
+    font-size: 2.5rem;
+
+}
+
+.second-page-main-left h5,
+.finall-price,
+.first-page-price-information h5 {
+    margin-top: 13px;
+}
+
+.second-page-price {
+    display: flex;
+    justify-content: center;
+}
+
+.second-page-line {
+    background-image: url(../image/shoppingcargo/big-line.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 21px;
+    margin: 50px auto 0;
+}
+
+.pay-select ul li .outline {
+    outline: 2px solid #32a1ce;
+    transition: .1s;
+    transform: scale(1);
+}
+
+.pay-select {
+    width: 84%;
+    margin: 25px auto 0;
+    margin-left: 37px;
+}
+
+.pay-select ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto 0;
+}
+
+.pay-select ul li {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 125px;
+}
+
+.pay-select ul li button {
+    background-color: #ffffff00;
+    width: 100%;
+    height: 116px;
+    border: 0;
+
+}
+
+.valiate-time {
+    display: flex;
+    align-items: center;
+}
+
+.pay-select ul li p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.pay-select-line-pay {
+    background-image: url("../image/shoppingcargo/pay1.png");
+    box-sizing: border-box;
+}
+
+.pay-select-market {
+    background-image: url("../image/shoppingcargo/pay2.png");
+}
+
+.pay-select-inhand {
+    background-image: url("../image/shoppingcargo/pay3.png");
+}
+
+.pay-select-credit {
+    background-image: url("../image/shoppingcargo/pay4.png");
+}
+
+.credit-card {
+    width: 80%;
+    margin: 63px auto 0;
+}
+
+.credit-card h5 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.credit-card ul {
+    width: 100%;
+    margin: 32px auto 0;
+}
+
+.credit-card ul p {
+    font-size: 1.5rem;
+    text-align: right;
+    width: 25%;
+    font-weight: 600;
+}
+
+.credit-card ul input,
+.bank-list select {
+    width: 70%;
+    height: 22px;
+    background-color: #ffffffb1;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    border: 0;
+}
+
+.credit-card li {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.credit-card .card-no input {
+    width: 15%;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.finish {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #ffffffeb;
+    width: 40%;
+    height: 270px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.finish h5 {
+    margin-top: 20px;
+}
+
+.experience-descipt {
+    display: flex;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    justify-content: center;
+}
+
+.experience-descipt p {
+    font-size: 1.5rem;
+}
+
+.experience {
+    width: 80%;
+    background-color: #fff;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.experience div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.experience p {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.experience img {
+    width: 15%;
+    text-align: left;
+    margin-left: 78px;
+}
+
+.experience-mid-level-up {
+    background-image: url(../image/shoppingcargo/level-up.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.experience-mid {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7px;
+}
+
+.experience-mid-num {
+    margin-left: 156px;
+    transition: 1s;
+}
+
+.experience-mid-num-level-up {
+    margin-left: -303px;
+}
+
+.experience-top img {
+    transition: 1.5s;
+}
+
+.experience-num {
+    background-image: url(../image/shoppingcargo/triangle.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.experience-mid-bar {
+    width: 80%;
+    height: 29px;
+    background-image: url(../image/shoppingcargo/exp-bar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.experience-mid-bar .experience-bar {
+    width: 83%;
+    height: 15px;
+    background-color: #5784ff;
+    border-radius: 20px;
+    margin-left: 5px;
+    transition: 1s;
+}
+
+.experience-mid-bar .experience-bar-level-up {
+    width: 2%;
+}
+
+.experience-back {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-back p {
+    font-size: 1rem;
+}
+
+.credit-card {
+    display: none;
+}

@@ -1,0 +1,161 @@
+@import url("reset.css");
+@import url("style.css");
+@import url("index.css");
+@import url("index_rwd.css");
+
+article {
+    background-image: url("../image/feeback/bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -162px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-main {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.right img {
+    margin: 20px auto 0;
+    display: block;
+    width: 210px;
+}
+
+.right ul {
+    padding: 25px 140px 5px;
+}
+
+.right li {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.right li div {
+    display: flex;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.right p {
+    width: 100%;
+    font-size: 2rem;
+    text-align: right;
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+
+.right ul li input,
+select {
+    font-size: 2rem;
+    line-height: 1.5;
+    height: 50px;
+    background-color: #FEEFEF;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+    border: 0;
+}
+
+.opinion {
+    width: 68%;
+    margin: 0 auto 20px;
+    display: flex;
+    line-height: 2;
+    font-size: 2.5rem;
+    height: 231px;
+    resize: none;
+    border-radius: 10px;
+    border: 0;
+}
+
+.right .botn {
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+
+.botn button,
+.botn input {
+    background-color: rgba(80, 141, 255, 0.733);
+    width: 167px;
+    height: 57px;
+    font-size: 2rem;
+}
+
+.left img {
+    width: 100%;
+    height: 812px;
+
+}
+
+.foot-main {
+    width: 100%;
+}
+
+@media screen and (max-width:420px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 85%;
+    }
+
+    .right ul {
+        padding: 0;
+        width: 95%;
+    }
+
+    .right img {
+        margin: 20px auto;
+    }
+
+    .right li div {
+        width: 30%;
+    }
+
+    .right ul li input {
+        width: 70%;
+    }
+
+    .opinion {
+        width: 94%;
+        height: 210px;
+    }
+
+    .botn button,
+    .botn input {
+
+        width: 45%;
+
+    }
+
+    .right .botn {
+
+        justify-content: space-between;
+    }
+
+}

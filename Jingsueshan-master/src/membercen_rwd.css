@@ -1,0 +1,313 @@
+@media screen and (max-width:420px) {
+    .first-page {
+        background-position: -335px 0px;
+    }
+
+    .first-page-first {
+        margin-left: 0;
+    }
+
+    .first-page-top h2 {
+        margin: 466px auto 0;
+        width: 80%;
+
+    }
+
+    .button-main-6 {
+        width: 312px;
+        background-color: #4891ff;
+    }
+
+    .button-notmain-6 {
+        width: 312px;
+
+    }
+
+    .link-btn3 a,
+    .link-btn4 a {
+        padding-top: 23px;
+        font-weight: 600;
+    }
+
+    #add,
+    #login {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .login-input {
+        width: 80%;
+        height: 500px;
+        margin: 100px auto 0;
+        background-color: rgba(240, 248, 255, 0.925)
+    }
+
+    .member-center-top-left a {
+        margin-left: 0px;
+        width: 76%;
+    }
+
+    .member-center {
+        height: 858px;
+    }
+
+    .member-center-top-left {
+        align-self: flex-end;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 6px;
+    }
+
+    .member-center-top-left h2 {
+        font-weight: 700;
+    }
+
+    .member-level h5 {
+        font-weight: 600;
+    }
+
+    .member-level p {
+        font-size: 1.5rem;
+    }
+
+    .member-center-top-right {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+
+        margin-left: 30px;
+        margin-top: 20px;
+        justify-content: flex-end;
+        align-items: flex-start;
+
+    }
+
+    .member-card {
+        display: none;
+    }
+
+    .member-discount {
+        display: none;
+    }
+
+    .member-level {
+        width: 90%;
+    }
+
+    .link {
+        margin: 0 auto;
+    }
+
+    .link ul li {
+        border-radius: 15px;
+        margin-right: 0;
+        width: 100%;
+        height: 75px;
+    }
+
+    .link ul li button {
+        width: 100%;
+        height: 75px;
+    }
+
+    .link li button {
+        background-image: url();
+    }
+
+    .link ul {
+        flex-direction: column;
+    }
+
+    .link li p {
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .member-data-look-content {
+        margin: 30px auto 0;
+        width: 95%;
+        height: 519px;
+        overflow: auto;
+    }
+
+    .member-data-password-add-btn {
+        flex-direction: column-reverse;
+
+    }
+
+    .member-data-password-add-btn button,
+    input {
+        margin: 10px auto 0;
+    }
+
+    .member-data-password-add-btn input {
+        background-color: #79aeff;
+    }
+
+    .table-list li {
+        flex-direction: column;
+    }
+
+    .table-list p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .table-list input {
+        width: 100%;
+        height: 50px;
+    }
+
+    .add-address {
+        display: flex;
+
+    }
+
+    .member-data-add-content-member .table-list select {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+
+
+    }
+
+    .member-data-add-content-member .add-address input {
+        width: 100%;
+    }
+
+    .add-content-member-btn {
+        flex-direction: column-reverse;
+    }
+
+    .add-content-member-btn button {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .add-content-member-btn input {
+        background-color: #79aeff;
+        width: 90%;
+    }
+
+    .member-data-look,
+    .member-add-data {
+        height: 800px;
+    }
+
+    .member-data-look article {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .member-data-side-button {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .member-data-side-button button {
+        width: 40%;
+        height: 50px;
+    }
+
+    .member-data-side-button .button-notmain-4 {
+        background-color: #79aeff;
+    }
+
+    #normal-data {
+        margin: 0 auto;
+    }
+
+    .data-look-btn {
+        flex-direction: column-reverse;
+    }
+
+    .data-look-btn button {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .member-data-look-content-password {
+        margin-top: 50px;
+    }
+
+    .member-data-look-content-password .table-list {
+        margin: 0;
+        width: 100%;
+    }
+
+    .member-data-look-content-password .table-list li p,
+    input {
+        width: 100%;
+    }
+
+    .password-btn {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .password-btn .button-notmain-6 {
+        width: 100%;
+        margin-left: 0px;
+        height: 55px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .password-fix-btn {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .password-fix-btn .button-notmain-6 {
+        margin-left: 0;
+    }
+
+    .member-order-content li p {
+        line-height: 1.5;
+    }
+
+    .member-order-main {
+        margin-top: 70px;
+    }
+
+    .member-order-button {
+        display: flex;
+        width: 95%;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .member-order-button button {
+        width: 30%;
+        border-radius: 4px;
+    }
+
+    .member-order-list ul {
+        margin-left: 0;
+        width: 90%;
+        height: 500px;
+        padding: 0 15px;
+        height: auto;
+        max-height: 500px;
+    }
+
+    .member-order-list {
+        width: 90%;
+    }
+
+    .member-order-list li {
+        align-items: center;
+    }
+
+    .member-order-list p {
+        font-size: 1.5rem;
+    }
+
+    .member-order-content button {
+        font-size: 1.5rem;
+    }
+}
